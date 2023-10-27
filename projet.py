@@ -8,11 +8,8 @@ from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import json
 
-import os
-print(os.getcwd())
-
 def filtration_df():
-    df = pd.read_csv('./projet/requin/attacks.csv', encoding='latin1') #latin1, utf8 does not work
+    df = pd.read_csv('attacks.csv', encoding='latin1') #latin1, utf8 does not work
     df = df.rename(columns={'Species ':'Species'}) #take off the space after the column Species
     df = df.rename(columns={'Sex ':'Sex'}) #take off the space after the column Sex
     df = df.drop(['Unnamed: 22', 'Unnamed: 23'], axis=1) #columns with only NA values
