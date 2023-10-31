@@ -76,6 +76,3 @@ def get_callbacks(app, shark_sorted_df, sharks_species, fig_age, fig_usa, fig_au
                 return fig_sa
             else:
                 return fig_world
-
-
-    app.run_server(debug=True)

@@ -6,7 +6,7 @@ from callbacks import *
 import dash
 
 def main():
-    app = dash.Dash(__name__)#create the dash
+    app = dash.Dash(__name__)                  #create the dash
     shark_data = get_data()
     if shark_data is None: return
     
