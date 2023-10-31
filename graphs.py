@@ -1,4 +1,6 @@
-from data_processing import clean_time, categorize_time, px, pd
+from data_processing import clean_time, categorize_time
+import plotly.express as px
+import pandas as pd
 
 def byYearGraph(df): 
     fig = px.line(df,x='Year', y='Date', title='Shark Attack by Year')#a line

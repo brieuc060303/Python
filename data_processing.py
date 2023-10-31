@@ -1,8 +1,15 @@
 import pandas as pd
-import plotly.express as px
 
-def filtration_df():
-    df = pd.read_csv('attacks.csv', encoding='latin1') #latin1, utf8 does not work
+def get_data():
+    try:
+        return pd.read_csv('./ressources/shark-attack-dataset/attacks.csv', encoding='latin1') #latin1, utf8 does not work
+    except FileNotFoundError:
+        print("The dataset has not been downloaded. Please run the \"get_data\" file to download it. You can do so by using " +
+              "the command \"$ python get_data.py\" in a terminal")
+        return None  # You can return None or any other value that indicates an error
+
+
+def filtration_df( df ):
     df = df.rename(columns={'Species ':'Species'}) #take off the space after the column Species
     df = df.rename(columns={'Sex ':'Sex'}) #take off the space after the column Sex
     df = df.drop(['Unnamed: 22', 'Unnamed: 23'], axis=1) #columns with only NA values

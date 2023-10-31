@@ -1,12 +1,6 @@
-import pandas as pd
-import numpy as np
-import plotly.express as px
-import dash
+
 from dash import dcc
 from dash import html
-from dash.dependencies import Input, Output
-import plotly.graph_objects as go
-import json
 from callbacks import *
 
 def create_dashboard(app, fig_year, fig_sx, fig_activity, fig_world, fig_hours, fig_time_periods, fig_age):
