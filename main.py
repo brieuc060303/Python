@@ -8,7 +8,7 @@ import dash
 def main():
     app = dash.Dash(__name__)                  #create the dash
     shark_data = get_data()
-    if shark_data is None: return
+    if shark_data is None: return              #the data has not been downloaded
     
     sharks_df, sharks_activity, sharks_year, sharks_species = filtration_df( shark_data )
     fig_year = byYearGraph(sharks_year)
