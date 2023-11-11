@@ -83,7 +83,7 @@ Il y a deux graphiques sur la temporalité des attaques. Le premier est un histo
 Ce dernier graphique est un histogramme montrant les attaques selon l’âge des victimes. Il y a une checkbox qui, appuyée permet de montrer les détails de si ces attaques ont été meurtrières ou non. 
 
 #### "Conclusion"
-dzf
+En somme, cette étude approfondie des attaques de requins met en lumière divers facteurs contribuant à ces incidents, allant des aspects comportementaux humains à la présence spécifique de certaines espèces de requins. Ainsi grâce à cette étude nous avons pu voir les activités les plus dangereuses en terme d'attaque de requins, les personnes les plus touchées et les endroits ou les attaques peuvent le plus avoir lieu. Les résultats de cette étude fournissent des informations cruciales pour guider les politiques de prévention et les mesures de sécurité en matière d'attaques de requins. Ces données peuvent être utilisées pour informer le développement de campagnes de sensibilisation ciblées, la mise en œuvre de réglementations spécifiques, et l'amélioration des pratiques de sécurité individuelle et collective. En comprenant mieux les dynamiques complexes entourant ces incidents, les autorités et les communautés peuvent travailler de concert pour minimiser les risques et assurer la sécurité des personnes engagées dans des activités maritimes. 
 
 ## Developer Guide
 
